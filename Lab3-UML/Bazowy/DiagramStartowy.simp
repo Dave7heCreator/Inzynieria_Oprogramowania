@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="13.96" multi-file="no" uid="simp706a2dfdf2314f729fccbdad2d371b10">
+  <meta>
+    <name>Lab4</name>
+    <authors>Dawid Dziewic</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type stereotype="interface" type-id="uml-interface-classifier" type="Interface" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>3</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="uml-interface-classifier" type="Interface" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="realization" type="Realization" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>9</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>8</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-eab1ad25ff1e487597ab504cbb2b1ab6" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Dawid</first-name>
+        <last-name>Dziewic</last-name>
+        <role />
+        <e-mail>w64071@student.wsiz.edu.pl</e-mail>
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-4c7c5a462782489cb0e4558b88ec7a87" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="Class:421b2a2f38ce490db0984cca42fd4b32" name="Class3" class-ref="421b2a2f38ce490db0984cca42fd4b32" />
+        <type id="Class:7bfcbaf5f4304d1087c48e1ee6a678b6" name="Rower" class-ref="7bfcbaf5f4304d1087c48e1ee6a678b6" />
+      </types>
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p0efde5413ea64f4d9810a7ee3b63af67_432982501" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author>Dawid Dziewic</author>
+        </authors>
+        <description />
+        <creation-date>03/27/2023 13:17:48</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="pa3ef53c47be947059ef241936980d4ab_554169899" name="ClassDiagram1" order-index="1" uid="" auto-routed-paths="false" default-line-style="default" view-location="0,-90">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>Dawid Dziewic</author>
+          </authors>
+          <description />
+          <creation-date>03/27/2023 13:17:48</creation-date>
+          <change-date>03/27/2023 13:23:15</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="4b15f4f7f9f54c6bae0b858477aa4373" cid="I001" type="uml-interface-classifier" name="Pojazd" creator="" creation-date="03/27/2023 13:18:45">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="4b15f4f7f9f54c6bae0b858477aa4373_interface_c" type="interface" ref="" />
+            </stereotype-instances>
+            <owned-items />
+            <operations>
+              <operation id="o788cfc97127f4c8ea9b8f7a98376294f95" cid="OP001" name="getWheels" creation-date="03/27/2023 13:21:02" type="Integer" type-id="Uml.Integer" visibility="public" />
+              <operation id="o9cdc97eaab844b60985c434abcd7a250381" cid="OP002" name="addEngine" creation-date="03/27/2023 13:21:32" type="Boolean" type-id="Uml.Boolean" visibility="public" />
+              <operation id="o574bc2e88d40440480837f00dbdb91d6577" cid="OP003" name="getHp" creation-date="03/27/2023 13:22:03" type="Integer" type-id="Uml.Integer" visibility="public" />
+            </operations>
+          </item>
+          <item id="548c08be80404253982a682cb35fa4b5" cid="PROP008" type="property" name="MaxSpeed" owner="be87e31292574059939c2c7c9dd34da5" creator="" creation-date="03/27/2023 13:25:18" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="04a179623e3f43b0a965116200487edf" cid="PROP006" type="property" name="HP" owner="be87e31292574059939c2c7c9dd34da5" creator="" creation-date="03/27/2023 13:24:34" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="a95bd43507514609904c2bc8b998e7a0" cid="PROP007" type="property" name="haveEngine" owner="be87e31292574059939c2c7c9dd34da5" creator="" creation-date="03/27/2023 13:25:04" visibility="private">
+            <structural-feature type="Boolean" type-id="Uml.Boolean" />
+          </item>
+          <item id="7bfcbaf5f4304d1087c48e1ee6a678b6" cid="C001" type="class" name="Rower" creator="" creation-date="03/27/2023 13:18:53">
+            <owned-items />
+            <attributes>
+              <attribute id="affdb716700bf48fe8fcdb7307a1377dd509" cid="PROP004" name="haveEngine" creation-date="03/27/2023 13:24:02" property-ref="3e165a5c7c6649cfbfc7420a7f9250f2" />
+            </attributes>
+            <operations>
+              <operation id="o788cfc97127f4c8ea9b8f7a98376294f95" cid="OP001" name="getWheels" creation-date="03/27/2023 13:21:02" type="Integer" type-id="Uml.Integer" visibility="public" />
+              <operation id="o9cdc97eaab844b60985c434abcd7a250381" cid="OP002" name="addEngine" creation-date="03/27/2023 13:21:32" type="Boolean" type-id="Uml.Boolean" visibility="public" />
+              <operation id="o574bc2e88d40440480837f00dbdb91d6577" cid="OP003" name="getHp" creation-date="03/27/2023 13:22:03" type="Integer" type-id="Uml.Integer" visibility="public" />
+            </operations>
+          </item>
+          <item id="be87e31292574059939c2c7c9dd34da5" cid="C002" type="class" name="Samochód" creator="" creation-date="03/27/2023 13:18:56">
+            <owned-items />
+            <attributes>
+              <attribute id="a7a1f5aadf8374b9cacfce42e83e0db00379" cid="PROP006" name="HP" creation-date="03/27/2023 13:24:34" property-ref="04a179623e3f43b0a965116200487edf" />
+              <attribute id="a9e790fcc56804f879e0d9718a93911db657" cid="PROP007" name="haveEngine" creation-date="03/27/2023 13:25:04" property-ref="a95bd43507514609904c2bc8b998e7a0" />
+              <attribute id="a7920c21d68c34166a3d20dccf0ebacec966" cid="PROP008" name="MaxSpeed" creation-date="03/27/2023 13:25:18" property-ref="548c08be80404253982a682cb35fa4b5" />
+            </attributes>
+            <operations>
+              <operation id="o788cfc97127f4c8ea9b8f7a98376294f95" cid="OP001" name="getWheels" creation-date="03/27/2023 13:21:02" type="Integer" type-id="Uml.Integer" visibility="public" />
+              <operation id="o9cdc97eaab844b60985c434abcd7a250381" cid="OP002" name="addEngine" creation-date="03/27/2023 13:21:32" type="Boolean" type-id="Uml.Boolean" visibility="public" />
+              <operation id="o574bc2e88d40440480837f00dbdb91d6577" cid="OP003" name="getHp" creation-date="03/27/2023 13:22:03" type="Integer" type-id="Uml.Integer" visibility="public" />
+              <operation id="o0ae079ecfa034bbb8fea9068bce8e780561" cid="OP007" name="getMaxSpeed" creation-date="03/27/2023 13:25:30" type="Integer" type-id="Uml.Integer" visibility="public" />
+            </operations>
+          </item>
+          <item id="3e165a5c7c6649cfbfc7420a7f9250f2" cid="PROP004" type="property" name="haveEngine" owner="7bfcbaf5f4304d1087c48e1ee6a678b6" creator="" creation-date="03/27/2023 13:24:02" visibility="private">
+            <structural-feature type="Boolean" type-id="Uml.Boolean" />
+          </item>
+          <item id="ea2e8b43d8a24a62b0fe047dbf85c4ce" cid="REA002" type="realization" name="Implementuje" creator="" creation-date="03/27/2023 13:19:42" from="7bfcbaf5f4304d1087c48e1ee6a678b6" to="4b15f4f7f9f54c6bae0b858477aa4373" visibility="package" />
+          <item id="0b008f3f840341a498c622e7d082a9b3" cid="REA001" type="realization" name="Implementuje" creator="" creation-date="03/27/2023 13:19:27" from="be87e31292574059939c2c7c9dd34da5" to="4b15f4f7f9f54c6bae0b858477aa4373" visibility="package" />
+        </abstract-items>
+        <layer id="b80ef254263149bcb8466a6d28046f1d" name="Default" visible="true" enabled="true" locked="false">
+          <item id="4b15f4f7f9f54c6bae0b858477aa4373" iid="08697fe9132d4afa867d7c90572bdeb9" creation-date="03/27/2023 13:18:45" order-index="0" type="entity">
+            <layout ax="599" ay="100" awidth="204" aheight="250" x="599" y="100" width="204" height="250" rotation-center="-32,4" />
+            <classifier />
+            <class />
+          </item>
+          <item id="7bfcbaf5f4304d1087c48e1ee6a678b6" iid="96de06f7f71842aa97c62391f857e357" show-fields="true" creation-date="03/27/2023 13:18:53" order-index="1" type="entity">
+            <layout ax="151" ay="289" awidth="204" aheight="231" x="151" y="289" width="204" height="231" rotation-center="32,-35.5" />
+            <classifier />
+            <class />
+          </item>
+          <item id="be87e31292574059939c2c7c9dd34da5" iid="0616f7232eda48bfb91a2aeedd43ada9" show-fields="true" creation-date="03/27/2023 13:18:56" order-index="2" type="entity">
+            <layout ax="151" ay="-40" awidth="204" aheight="231" x="151" y="-40" width="204" height="231" rotation-center="32,35.5" />
+            <classifier />
+            <class />
+          </item>
+          <item id="0b008f3f840341a498c622e7d082a9b3" iid="95afcf16ba8a4d758b1da263edf42070" creation-date="03/27/2023 13:19:27" order-index="3" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="355" y1="76" x2="599" y2="225" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="80" end-local-pos="80" name-position="0,20">
+              <points>
+                <point x="355" y="76" />
+                <point x="599" y="225" />
+              </points>
+            </layout>
+            <relation from="be87e31292574059939c2c7c9dd34da5" from-iid="0616f7232eda48bfb91a2aeedd43ada9" to="4b15f4f7f9f54c6bae0b858477aa4373" to-iid="08697fe9132d4afa867d7c90572bdeb9" />
+          </item>
+          <item id="ea2e8b43d8a24a62b0fe047dbf85c4ce" iid="6500dfb589384a7bb46f84701d7a8a53" creation-date="03/27/2023 13:19:42" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="355" y1="404" x2="599" y2="253" start-border-pos="0.375" end-border-pos="0.846874997019768" start-local-pos="80" end-local-pos="98" name-position="0,20">
+              <points>
+                <point x="355" y="404" />
+                <point x="599" y="253" />
+              </points>
+            </layout>
+            <relation from="7bfcbaf5f4304d1087c48e1ee6a678b6" from-iid="96de06f7f71842aa97c62391f857e357" to="4b15f4f7f9f54c6bae0b858477aa4373" to-iid="08697fe9132d4afa867d7c90572bdeb9" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
